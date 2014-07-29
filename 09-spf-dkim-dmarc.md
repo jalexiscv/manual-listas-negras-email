@@ -1,6 +1,6 @@
 # Capítulo 9: SPF, DKIM y DMARC — El Santo Grial de la Autenticación
 
-[← Anterior](08-como-detectar.md) | [Índice](00-indice.md) | [Siguiente →](10-estrategias-desliste.md)
+[← Anterior](08-como-detectar.md) | [Índice](README.md) | [Siguiente →](10-estrategias-desliste.md)
 
 ---
 

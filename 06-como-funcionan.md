@@ -1,6 +1,6 @@
 # Capítulo 6: Cómo Funcionan las DNSBL por Dentro
 
-[← Anterior](05-principales-dnsbl.md) | [Índice](00-indice.md) | [Siguiente →](07-motivos-de-inclusion.md)
+[← Anterior](05-principales-dnsbl.md) | [Índice](README.md) | [Siguiente →](07-motivos-de-inclusion.md)
 
 ---
 

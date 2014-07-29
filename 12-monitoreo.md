@@ -1,6 +1,6 @@
 # Capítulo 12: Monitoreo Continuo y Herramientas
 
-[← Anterior](11-prevencion.md) | [Índice](00-indice.md) | [Siguiente →](13-listas-blancas.md)
+[← Anterior](11-prevencion.md) | [Índice](README.md) | [Siguiente →](13-listas-blancas.md)
 
 ---
 

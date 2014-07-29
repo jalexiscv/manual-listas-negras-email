@@ -1,6 +1,6 @@
 # Capítulo 2: Fundamentos Técnicos del Correo Electrónico
 
-[← Anterior](01-introduccion.md) | [Índice](00-indice.md) | [Siguiente →](03-que-es-una-lista-negra.md)
+[← Anterior](01-introduccion.md) | [Índice](README.md) | [Siguiente →](03-que-es-una-lista-negra.md)
 
 ---
 

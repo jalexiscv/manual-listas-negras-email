@@ -1,6 +1,6 @@
 # Apéndice B: Códigos de Error SMTP Relacionados con Listas Negras
 
-[← Anterior](apendice-a-dnsbl-comparativa.md) | [Índice](00-indice.md) | [Siguiente →](apendice-c-scripts.md)
+[← Anterior](apendice-a-dnsbl-comparativa.md) | [Índice](README.md) | [Siguiente →](apendice-c-scripts.md)
 
 ---
 

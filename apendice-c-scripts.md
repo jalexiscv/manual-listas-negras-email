@@ -1,6 +1,6 @@
 # Apéndice C: Scripts Útiles para Administradores
 
-[← Anterior](apendice-b-codigos-smtp.md) | [Índice](00-indice.md)
+[← Anterior](apendice-b-codigos-smtp.md) | [Índice](README.md)
 
 ---
 

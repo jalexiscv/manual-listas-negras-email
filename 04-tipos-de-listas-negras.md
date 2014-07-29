@@ -1,6 +1,6 @@
 # Capítulo 4: Tipos de Listas Negras
 
-[← Anterior](03-que-es-una-lista-negra.md) | [Índice](00-indice.md) | [Siguiente →](05-principales-dnsbl.md)
+[← Anterior](03-que-es-una-lista-negra.md) | [Índice](README.md) | [Siguiente →](05-principales-dnsbl.md)
 
 ---
 

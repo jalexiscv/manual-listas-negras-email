@@ -16,7 +16,7 @@ Este manual está organizado en quince capítulos y tres apéndices.
 
 | # | Archivo | Título |
 |---|---------|--------|
-| 00 | `00-indice.md` | Índice general y estructura |
+| 00 | `README.md` | Índice general y estructura |
 | 01 | `01-introduccion.md` | Introducción al mundo de las listas negras |
 | 02 | `02-fundamentos.md` | Fundamentos técnicos del correo electrónico |
 | 03 | `03-que-es-una-lista-negra.md` | ¿Qué es una lista negra? |

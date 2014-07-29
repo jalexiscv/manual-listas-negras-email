@@ -1,6 +1,6 @@
 # Capítulo 14: Estudios de Caso Reales
 
-[← Anterior](13-listas-blancas.md) | [Índice](00-indice.md) | [Siguiente →](15-glosario.md)
+[← Anterior](13-listas-blancas.md) | [Índice](README.md) | [Siguiente →](15-glosario.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Apéndice A: Tabla Comparativa de DNSBL
 
-[← Glosario](15-glosario.md) | [Índice](00-indice.md) | [Siguiente →](apendice-b-codigos-smtp.md)
+[← Glosario](15-glosario.md) | [Índice](README.md) | [Siguiente →](apendice-b-codigos-smtp.md)
 
 ---
 

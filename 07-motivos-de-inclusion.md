@@ -1,6 +1,6 @@
 # Capítulo 7: Motivos Comunes para Ser Incluido
 
-[← Anterior](06-como-funcionan.md) | [Índice](00-indice.md) | [Siguiente →](08-como-detectar.md)
+[← Anterior](06-como-funcionan.md) | [Índice](README.md) | [Siguiente →](08-como-detectar.md)
 
 ---
 

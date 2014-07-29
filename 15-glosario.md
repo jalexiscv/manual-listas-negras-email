@@ -1,6 +1,6 @@
 # Capítulo 15: Glosario de Términos
 
-[← Anterior](14-estudios-de-caso.md) | [Índice](00-indice.md) | [Apéndices →](apendice-a-dnsbl-comparativa.md)
+[← Anterior](14-estudios-de-caso.md) | [Índice](README.md) | [Apéndices →](apendice-a-dnsbl-comparativa.md)
 
 ---
 

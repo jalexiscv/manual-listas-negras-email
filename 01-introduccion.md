@@ -1,6 +1,6 @@
 # Capítulo 1: Introducción al Mundo de las Listas Negras
 
-[← Índice](00-indice.md) | [Siguiente →](02-fundamentos.md)
+[← Índice](README.md) | [Siguiente →](02-fundamentos.md)
 
 ---
 

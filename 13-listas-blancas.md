@@ -1,6 +1,6 @@
 # Capítulo 13: Listas Blancas y Reputación Positiva
 
-[← Anterior](12-monitoreo.md) | [Índice](00-indice.md) | [Siguiente →](14-estudios-de-caso.md)
+[← Anterior](12-monitoreo.md) | [Índice](README.md) | [Siguiente →](14-estudios-de-caso.md)
 
 ---
 

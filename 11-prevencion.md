@@ -1,6 +1,6 @@
 # Capítulo 11: Prevención — Buenas Prácticas de Envío
 
-[← Anterior](10-estrategias-desliste.md) | [Índice](00-indice.md) | [Siguiente →](12-monitoreo.md)
+[← Anterior](10-estrategias-desliste.md) | [Índice](README.md) | [Siguiente →](12-monitoreo.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Capítulo 10: Estrategias para Salir de una Lista Negra
 
-[← Anterior](09-spf-dkim-dmarc.md) | [Índice](00-indice.md) | [Siguiente →](11-prevencion.md)
+[← Anterior](09-spf-dkim-dmarc.md) | [Índice](README.md) | [Siguiente →](11-prevencion.md)
 
 ---
 

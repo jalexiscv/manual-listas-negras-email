@@ -1,6 +1,6 @@
 # Capítulo 3: ¿Qué es una Lista Negra?
 
-[← Anterior](02-fundamentos.md) | [Índice](00-indice.md) | [Siguiente →](04-tipos-de-listas-negras.md)
+[← Anterior](02-fundamentos.md) | [Índice](README.md) | [Siguiente →](04-tipos-de-listas-negras.md)
 
 ---
 

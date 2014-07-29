@@ -1,6 +1,6 @@
 # Capítulo 8: Cómo Detectar si Estás en una Lista Negra
 
-[← Anterior](07-motivos-de-inclusion.md) | [Índice](00-indice.md) | [Siguiente →](09-spf-dkim-dmarc.md)
+[← Anterior](07-motivos-de-inclusion.md) | [Índice](README.md) | [Siguiente →](09-spf-dkim-dmarc.md)
 
 ---
 

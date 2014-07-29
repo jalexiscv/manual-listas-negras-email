@@ -1,6 +1,6 @@
 # Capítulo 5: Las Principales DNSBL del Mundo
 
-[← Anterior](04-tipos-de-listas-negras.md) | [Índice](00-indice.md) | [Siguiente →](06-como-funcionan.md)
+[← Anterior](04-tipos-de-listas-negras.md) | [Índice](README.md) | [Siguiente →](06-como-funcionan.md)
 
 ---
 
