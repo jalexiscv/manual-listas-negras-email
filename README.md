@@ -4,169 +4,106 @@
 
 ---
 
-**Autor:** Jose Alexis Correa Valencia
-**Versión:** 1.0
+**Autor:** Jose Alexis Correa Valencia  
+**Versión:** 1.0  
 **Fecha de publicación:** 15 de Julio de 2014
 
 ---
 
 ## Estructura del Manual
 
-Este manual está organizado en quince capítulos y tres apéndices.
+Este manual está organizado en quince capítulos y tres apéndices. Haz clic en cualquier capítulo para leerlo.
 
-| # | Archivo | Título |
-|---|---------|--------|
-| 00 | `README.md` | Índice general y estructura |
-| 01 | `01-introduccion.md` | Introducción al mundo de las listas negras |
-| 02 | `02-fundamentos.md` | Fundamentos técnicos del correo electrónico |
-| 03 | `03-que-es-una-lista-negra.md` | ¿Qué es una lista negra? |
-| 04 | `04-tipos-de-listas-negras.md` | Tipos de listas negras |
-| 05 | `05-principales-dnsbl.md` | Las principales DNSBL del mundo |
-| 06 | `06-como-funcionan.md` | Cómo funcionan las DNSBL por dentro |
-| 07 | `07-motivos-de-inclusion.md` | Motivos comunes para ser incluido |
-| 08 | `08-como-detectar.md` | Cómo detectar si estás en una lista negra |
-| 09 | `09-spf-dkim-dmarc.md` | SPF, DKIM y DMARC — El santo grial de la autenticación |
-| 10 | `10-estrategias-desliste.md` | Estrategias para salir de una lista negra |
-| 11 | `11-prevencion.md` | Prevención: buenas prácticas de envío |
-| 12 | `12-monitoreo.md` | Monitoreo continuo y herramientas |
-| 13 | `13-listas-blancas.md` | Listas blancas y reputación positiva |
-| 14 | `14-estudios-de-caso.md` | Estudios de caso reales |
-| 15 | `15-glosario.md` | Glosario de términos |
-| A | `apendice-a-dnsbl-comparativa.md` | Apéndice A: Tabla comparativa de DNSBL |
-| B | `apendice-b-codigos-smtp.md` | Apéndice B: Códigos de error SMTP |
-| C | `apendice-c-scripts.md` | Apéndice C: Scripts útiles para administradores |
+| # | Capítulo | Enlace |
+|---|----------|--------|
+| 01 | Introducción al mundo de las listas negras | [Leer →](01-introduccion.md) |
+| 02 | Fundamentos técnicos del correo electrónico | [Leer →](02-fundamentos.md) |
+| 03 | ¿Qué es una lista negra? | [Leer →](03-que-es-una-lista-negra.md) |
+| 04 | Tipos de listas negras | [Leer →](04-tipos-de-listas-negras.md) |
+| 05 | Las principales DNSBL del mundo | [Leer →](05-principales-dnsbl.md) |
+| 06 | Cómo funcionan las DNSBL por dentro | [Leer →](06-como-funcionan.md) |
+| 07 | Motivos comunes para ser incluido | [Leer →](07-motivos-de-inclusion.md) |
+| 08 | Cómo detectar si estás en una lista negra | [Leer →](08-como-detectar.md) |
+| 09 | SPF, DKIM y DMARC — El santo grial de la autenticación | [Leer →](09-spf-dkim-dmarc.md) |
+| 10 | Estrategias para salir de una lista negra | [Leer →](10-estrategias-desliste.md) |
+| 11 | Prevención: buenas prácticas de envío | [Leer →](11-prevencion.md) |
+| 12 | Monitoreo continuo y herramientas | [Leer →](12-monitoreo.md) |
+| 13 | Listas blancas y reputación positiva | [Leer →](13-listas-blancas.md) |
+| 14 | Estudios de caso reales | [Leer →](14-estudios-de-caso.md) |
+| 15 | Glosario de términos | [Leer →](15-glosario.md) |
+| A | Apéndice A: Tabla comparativa de DNSBL | [Leer →](apendice-a-dnsbl-comparativa.md) |
+| B | Apéndice B: Códigos de error SMTP | [Leer →](apendice-b-codigos-smtp.md) |
+| C | Apéndice C: Scripts útiles para administradores | [Leer →](apendice-c-scripts.md) |
 
 ---
 
 ## Cómo usar este manual
 
-- **Principiantes:** Lean los capítulos 1 al 4 para los fundamentos.
-- **Administradores:** Enfoquen en capítulos 5-8 (operativo) y 9-11 (preventivo).
-- **Expertos:** Capítulos 12-14 y apéndices para referencia avanzada.
-- **Consulta rápida:** Capítulo 15 (glosario) y apéndices.
+Este manual ha sido diseñado para adaptarse a diferentes perfiles de lectores:
 
-> Cada capítulo es autocontenido. Puedes leerlos en cualquier orden según tu necesidad.
+- **🔰 Principiantes:** Si estás empezando en la administración de servidores de correo, lee los **capítulos 1 al 4** en orden. Ellos establecen los fundamentos conceptuales y técnicos necesarios para entender el resto del libro.
+
+- **🛠️ Administradores de sistemas:** Enfócate en los **capítulos 5 al 8** (cómo funcionan las listas negras) y **9 al 11** (autenticación, desliste y prevención). También te serán de gran utilidad los scripts del Apéndice C.
+
+- **🎯 Especialistas en marketing:** Los **capítulos 11 (prevención)** y **14 (casos reales)** son lectura obligada. También te recomendamos el capítulo 9 sobre autenticación.
+
+- **📖 Consulta rápida:** El **capítulo 15 (glosario)** y los **apéndices A y B** están diseñados para consulta sobre la marcha cuando necesitas recordar un término o interpretar un código de error.
+
+> Cada capítulo es autocontenido. Puedes leerlos en el orden que prefieras según tu necesidad del momento.
+
+---
+
+## Vista General del Contenido
+
+### Bloque 1: Fundamentos (Capítulos 1-4)
+Los primeros cuatro capítulos sientan las bases: qué es una lista negra, cómo funciona el correo electrónico, quién opera las listas y qué tipos existen.
+
+### Bloque 2: Operativo (Capítulos 5-8)
+Aquí se explica en detalle cómo funcionan las listas negras en la práctica: las principales DNSBL del mundo, los motivos por los que una IP termina listada, y las herramientas para detectar listados.
+
+### Bloque 3: Preventivo (Capítulos 9-11)
+SPF, DKIM y DMARC son los pilares de la autenticación. Este bloque cubre cómo configurarlos, cómo salir de una lista negra cuando ya estás en ella, y las mejores prácticas para evitar futuros listados.
+
+### Bloque 4: Avanzado (Capítulos 12-14)
+Herramientas de monitoreo continuo, listas blancas y reputación positiva, y seis estudios de caso reales documentados con causas, soluciones y lecciones aprendidas.
+
+### Bloque 5: Referencia (Capítulo 15 y Apéndices)
+Glosario completo de términos técnicos, tabla comparativa de DNSBL, guía de códigos de error SMTP, y scripts listos para usar.
+
+---
 
 ## Convenciones
 
+A lo largo de todo el manual se utilizan las siguientes convenciones visuales:
+
 | Símbolo | Significado |
 |---------|-------------|
-| `Código` | Comandos, fragmentos de configuración |
+| `Código` | Comandos de terminal, configuraciones, nombres de archivo |
 | **Negrita** | Términos clave en su primera aparición |
 | > | Citas, notas importantes, advertencias |
 | 📌 **Dato clave** | Información esencial para recordar |
 | ⚠️ **Advertencia** | Peligros y errores comunes |
 | 💡 **Consejo** | Trucos y recomendaciones de expertos |
-
-
-## 🤝 Contribución
-
-Este proyecto es **Open Source** y vive gracias a la comunidad. ¡Tus contribuciones son bienvenidas!
-
-### Cómo Contribuir
-
-1. **Fork** del repositorio
-2. **Crea tu rama** de característica
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   ```
-3. **Asegúrate de ejecutar los tests**
-   ```bash
-   composer test
-   ```
-4. **Haz commit de tus cambios**
-   ```bash
-   git commit -m 'Add: Nueva funcionalidad increíble'
-   ```
-5. **Push a tu rama**
-   ```bash
-   git push origin feature/nueva-funcionalidad
-   ```
-6. **Abre un Pull Request**
-
-### Directrices de Contribución
-
-- ✅ Sigue los estándares PSR-12
-- ✅ Mantén el tipado estricto (`declare(strict_types=1)`)
-- ✅ Documenta todas las funciones públicas
-- ✅ Agrega tests para nuevas funcionalidades
-- ✅ Actualiza la documentación relevante
-
-### Áreas que Necesitan Ayuda
-
-- 📝 Mejoras en documentación
-- 🧪 Tests unitarios y de integración
-- 🎨 Nuevos componentes de Bootstrap
-- 🔧 Implementación de nuevos frameworks (Tailwind, Material)
-- 🌍 Traducciones de documentación
-- 🐛 Reportes de bugs
+| ```bloques``` | Fragmentos de código listos para copiar y ejecutar |
 
 ---
 
-## 🤝 Soporte y Comunidad
+## Enlaces Rápidos
 
-### ¿Necesitas Ayuda?
-
-- 📖 **Documentación**: Lee el [README completo](README.md) y [ARCHITECTURE.md](ARCHITECTURE.md)
-- 🐛 **Reportar bugs**: Abre un [issue en GitHub](https://github.com/jalexiscv/Html/issues)
-- 💡 **Solicitar funcionalidades**: Usa las [GitHub Discussions](https://github.com/jalexiscv/Html/discussions)
-- 📧 **Contacto directo**: jalexiscv@gmail.com
-
-### Comunidad
-
-- **Discusiones**: Únete a las conversaciones en GitHub Discussions
-- **Contribuciones**: Revisa los [issues etiquetados como "good first issue"](https://github.com/jalexiscv/Html/labels/good%20first%20issue)
+- 📘 **Repositorio en GitHub:** [jalexiscv/manual-listas-negras-email](https://github.com/jalexiscv/manual-listas-negras-email)
+- 📧 **Contacto:** jalexiscv@gmail.com
+- 🌐 **Perfil GitHub:** [@jalexiscv](https://github.com/jalexiscv)
 
 ---
 
-## 📜 Licencia
+## Licencia
 
-Distribuido bajo la Licencia **MIT**. Ver [LICENSE](LICENSE) para más información.
-
-> La licencia MIT te permite usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del software sin restricciones, siempre que se incluya el aviso de copyright.
+Distribuido bajo la Licencia **MIT**. Eres libre de usar, copiar, modificar y distribuir este contenido, siempre que se incluya el crédito al autor original.
 
 ---
 
-## 👨‍💻 Autor
-
-**Jose Alexis Correa Valencia**
-*Full Stack Developer & Software Architect*
-
-Con más de 25 años de experiencia en desarrollo de software empresarial, especializado en arquitecturas escalables y soluciones PHP modernas.
-
-- **GitHub**: [@jalexiscv](https://github.com/jalexiscv)
-- **LinkedIn**: [Jose Alexis Correa Valencia](https://www.linkedin.com/in/jalexiscv/)
-- **Email**: jalexiscv@gmail.com
-- **Ubicación**: Colombia 🇨🇴
+*"El correo electrónico no está muerto. Está en una guerra constante contra el abuso. Las listas negras son los centinelas en las murallas. Respétalos, entiéndelos y trabajarán contigo, no contra ti."*
 
 ---
 
-## ❤️ Donaciones
-
-Si Frontend Framework te ha ayudado a ti o a tu negocio, considera apoyar su desarrollo y mantenimiento continuo.
-
-| Método | Detalles |
-|--------|----------|
-| **PayPal** | [jalexiscv@gmail.com](https://www.paypal.com/paypalme/anssible) |
-| **Nequi (Colombia)** | `3117977281` |
-
-### Beneficios de tu Soporte
-
-Tu donación ayuda a:
-- ⚡ Acelerar el desarrollo de nuevas funcionalidades
-- 📚 Crear más documentación y ejemplos
-- 🧪 Mejorar la cobertura de tests
-- 🎨 Implementar soporte para más frameworks
-- 🌍 Mantener el proyecto activo y actualizado
-
-*¡Gracias por tu apoyo!* 🙏
-
----
-
-<div align="center">
-
-**Desarrollado con ❤️ para la comunidad PHP**
-
-[⬆ Volver arriba](#frontend-framework)
-
-</div>
+**Jose Alexis Correa Valencia** — Colombia 🇨🇴
